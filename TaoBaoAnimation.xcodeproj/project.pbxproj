@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		221149261E601C510068EE00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 221149251E601C510068EE00 /* main.m */; };
+		221149291E601C510068EE00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 221149281E601C510068EE00 /* AppDelegate.m */; };
+		2211492C1E601C510068EE00 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2211492B1E601C510068EE00 /* ViewController.m */; };
+		2211492F1E601C510068EE00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2211492D1E601C510068EE00 /* Main.storyboard */; };
+		221149311E601C510068EE00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 221149301E601C510068EE00 /* Assets.xcassets */; };
+		221149341E601C510068EE00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 221149321E601C510068EE00 /* LaunchScreen.storyboard */; };
+		2211493F1E601C510068EE00 /* TaoBaoAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2211493E1E601C510068EE00 /* TaoBaoAnimationTests.m */; };
+		2211494A1E601C510068EE00 /* TaoBaoAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 221149491E601C510068EE00 /* TaoBaoAnimationUITests.m */; };
+		221149591E601C6F0068EE00 /* ZXCAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 221149581E601C6F0068EE00 /* ZXCAnimationViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2211493B1E601C510068EE00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 221149191E601C510068EE00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 221149201E601C510068EE00;
+			remoteInfo = TaoBaoAnimation;
+		};
+		221149461E601C510068EE00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 221149191E601C510068EE00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 221149201E601C510068EE00;
+			remoteInfo = TaoBaoAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		221149211E601C510068EE00 /* TaoBaoAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaoBaoAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		221149251E601C510068EE00 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		221149271E601C510068EE00 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		221149281E601C510068EE00 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2211492A1E601C510068EE00 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2211492B1E601C510068EE00 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2211492E1E601C510068EE00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		221149301E601C510068EE00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		221149331E601C510068EE00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		221149351E601C510068EE00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2211493A1E601C510068EE00 /* TaoBaoAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaoBaoAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2211493E1E601C510068EE00 /* TaoBaoAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaoBaoAnimationTests.m; sourceTree = "<group>"; };
+		221149401E601C510068EE00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		221149451E601C510068EE00 /* TaoBaoAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaoBaoAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		221149491E601C510068EE00 /* TaoBaoAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaoBaoAnimationUITests.m; sourceTree = "<group>"; };
+		2211494B1E601C510068EE00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		221149571E601C6F0068EE00 /* ZXCAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXCAnimationViewController.h; sourceTree = "<group>"; };
+		221149581E601C6F0068EE00 /* ZXCAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXCAnimationViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2211491E1E601C510068EE00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		221149371E601C510068EE00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		221149421E601C510068EE00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		221149181E601C510068EE00 = {
+			isa = PBXGroup;
+			children = (
+				221149231E601C510068EE00 /* TaoBaoAnimation */,
+				2211493D1E601C510068EE00 /* TaoBaoAnimationTests */,
+				221149481E601C510068EE00 /* TaoBaoAnimationUITests */,
+				221149221E601C510068EE00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		221149221E601C510068EE00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				221149211E601C510068EE00 /* TaoBaoAnimation.app */,
+				2211493A1E601C510068EE00 /* TaoBaoAnimationTests.xctest */,
+				221149451E601C510068EE00 /* TaoBaoAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		221149231E601C510068EE00 /* TaoBaoAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				221149271E601C510068EE00 /* AppDelegate.h */,
+				221149281E601C510068EE00 /* AppDelegate.m */,
+				2211492A1E601C510068EE00 /* ViewController.h */,
+				2211492B1E601C510068EE00 /* ViewController.m */,
+				221149571E601C6F0068EE00 /* ZXCAnimationViewController.h */,
+				221149581E601C6F0068EE00 /* ZXCAnimationViewController.m */,
+				2211492D1E601C510068EE00 /* Main.storyboard */,
+				221149301E601C510068EE00 /* Assets.xcassets */,
+				221149321E601C510068EE00 /* LaunchScreen.storyboard */,
+				221149351E601C510068EE00 /* Info.plist */,
+				221149241E601C510068EE00 /* Supporting Files */,
+			);
+			path = TaoBaoAnimation;
+			sourceTree = "<group>";
+		};
+		221149241E601C510068EE00 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				221149251E601C510068EE00 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2211493D1E601C510068EE00 /* TaoBaoAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				2211493E1E601C510068EE00 /* TaoBaoAnimationTests.m */,
+				221149401E601C510068EE00 /* Info.plist */,
+			);
+			path = TaoBaoAnimationTests;
+			sourceTree = "<group>";
+		};
+		221149481E601C510068EE00 /* TaoBaoAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				221149491E601C510068EE00 /* TaoBaoAnimationUITests.m */,
+				2211494B1E601C510068EE00 /* Info.plist */,
+			);
+			path = TaoBaoAnimationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		221149201E601C510068EE00 /* TaoBaoAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2211494E1E601C510068EE00 /* Build configuration list for PBXNativeTarget "TaoBaoAnimation" */;
+			buildPhases = (
+				2211491D1E601C510068EE00 /* Sources */,
+				2211491E1E601C510068EE00 /* Frameworks */,
+				2211491F1E601C510068EE00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaoBaoAnimation;
+			productName = TaoBaoAnimation;
+			productReference = 221149211E601C510068EE00 /* TaoBaoAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		221149391E601C510068EE00 /* TaoBaoAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 221149511E601C510068EE00 /* Build configuration list for PBXNativeTarget "TaoBaoAnimationTests" */;
+			buildPhases = (
+				221149361E601C510068EE00 /* Sources */,
+				221149371E601C510068EE00 /* Frameworks */,
+				221149381E601C510068EE00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2211493C1E601C510068EE00 /* PBXTargetDependency */,
+			);
+			name = TaoBaoAnimationTests;
+			productName = TaoBaoAnimationTests;
+			productReference = 2211493A1E601C510068EE00 /* TaoBaoAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		221149441E601C510068EE00 /* TaoBaoAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 221149541E601C510068EE00 /* Build configuration list for PBXNativeTarget "TaoBaoAnimationUITests" */;
+			buildPhases = (
+				221149411E601C510068EE00 /* Sources */,
+				221149421E601C510068EE00 /* Frameworks */,
+				221149431E601C510068EE00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				221149471E601C510068EE00 /* PBXTargetDependency */,
+			);
+			name = TaoBaoAnimationUITests;
+			productName = TaoBaoAnimationUITests;
+			productReference = 221149451E601C510068EE00 /* TaoBaoAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		221149191E601C510068EE00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = iOS_ZXC;
+				TargetAttributes = {
+					221149201E601C510068EE00 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = AC74LCWLVF;
+						ProvisioningStyle = Automatic;
+					};
+					221149391E601C510068EE00 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 221149201E601C510068EE00;
+					};
+					221149441E601C510068EE00 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 221149201E601C510068EE00;
+					};
+				};
+			};
+			buildConfigurationList = 2211491C1E601C510068EE00 /* Build configuration list for PBXProject "TaoBaoAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 221149181E601C510068EE00;
+			productRefGroup = 221149221E601C510068EE00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				221149201E601C510068EE00 /* TaoBaoAnimation */,
+				221149391E601C510068EE00 /* TaoBaoAnimationTests */,
+				221149441E601C510068EE00 /* TaoBaoAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2211491F1E601C510068EE00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				221149341E601C510068EE00 /* LaunchScreen.storyboard in Resources */,
+				221149311E601C510068EE00 /* Assets.xcassets in Resources */,
+				2211492F1E601C510068EE00 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		221149381E601C510068EE00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		221149431E601C510068EE00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2211491D1E601C510068EE00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2211492C1E601C510068EE00 /* ViewController.m in Sources */,
+				221149291E601C510068EE00 /* AppDelegate.m in Sources */,
+				221149261E601C510068EE00 /* main.m in Sources */,
+				221149591E601C6F0068EE00 /* ZXCAnimationViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		221149361E601C510068EE00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2211493F1E601C510068EE00 /* TaoBaoAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		221149411E601C510068EE00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2211494A1E601C510068EE00 /* TaoBaoAnimationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2211493C1E601C510068EE00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 221149201E601C510068EE00 /* TaoBaoAnimation */;
+			targetProxy = 2211493B1E601C510068EE00 /* PBXContainerItemProxy */;
+		};
+		221149471E601C510068EE00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 221149201E601C510068EE00 /* TaoBaoAnimation */;
+			targetProxy = 221149461E601C510068EE00 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2211492D1E601C510068EE00 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2211492E1E601C510068EE00 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		221149321E601C510068EE00 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				221149331E601C510068EE00 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2211494C1E601C510068EE00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2211494D1E601C510068EE00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2211494F1E601C510068EE00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AC74LCWLVF;
+				INFOPLIST_FILE = TaoBaoAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ARZXC.www.TaoBaoAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		221149501E601C510068EE00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AC74LCWLVF;
+				INFOPLIST_FILE = TaoBaoAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ARZXC.www.TaoBaoAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		221149521E601C510068EE00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TaoBaoAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ARZXC.www.TaoBaoAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaoBaoAnimation.app/TaoBaoAnimation";
+			};
+			name = Debug;
+		};
+		221149531E601C510068EE00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TaoBaoAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ARZXC.www.TaoBaoAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaoBaoAnimation.app/TaoBaoAnimation";
+			};
+			name = Release;
+		};
+		221149551E601C510068EE00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TaoBaoAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ARZXC.www.TaoBaoAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TaoBaoAnimation;
+			};
+			name = Debug;
+		};
+		221149561E601C510068EE00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TaoBaoAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ARZXC.www.TaoBaoAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TaoBaoAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2211491C1E601C510068EE00 /* Build configuration list for PBXProject "TaoBaoAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2211494C1E601C510068EE00 /* Debug */,
+				2211494D1E601C510068EE00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2211494E1E601C510068EE00 /* Build configuration list for PBXNativeTarget "TaoBaoAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2211494F1E601C510068EE00 /* Debug */,
+				221149501E601C510068EE00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		221149511E601C510068EE00 /* Build configuration list for PBXNativeTarget "TaoBaoAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				221149521E601C510068EE00 /* Debug */,
+				221149531E601C510068EE00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		221149541E601C510068EE00 /* Build configuration list for PBXNativeTarget "TaoBaoAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				221149551E601C510068EE00 /* Debug */,
+				221149561E601C510068EE00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 221149191E601C510068EE00 /* Project object */;
+}
